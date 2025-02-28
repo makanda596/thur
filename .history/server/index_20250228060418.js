@@ -13,7 +13,7 @@ app.use(express.json()); // Parse JSON requests
 const corsOptions = {
     origin: 'https://thur-dior.vercel.app'
 };
-app.use(cors(corsOptions)); 
+app.use(cors(corsOptions)); nable Cross-Origin Resource Sharing
 
 // Basic route
 app.get("/a", (req, res) => {
